@@ -1,7 +1,7 @@
 <?php
 	$objFormData = new FormData($this->GetPostData());
 ?>
-		<h1>PHP Application Specification Document</h1>
+		<h1>Type something in the search box and click the "Search Now" button.</h1>
 		<form id="frmSearchBox" enctype="multipart/form-data" method="POST" action="">
 		<div class="row">
 			<div class="col-xs-6">
