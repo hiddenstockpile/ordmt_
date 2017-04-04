@@ -121,7 +121,7 @@ class SearchView{
 			$strHtml .= '<h2> ' . $strTitle . ' </h2>';
 			
 			$strPostId = Utils::GetValueByIndex(Constants::POST, $arrPostData);
-			$strHtml .= '<a href="' . HOME_URL . '/show_post.php?id='. $strPostId .'">view this post</a>';
+			$strHtml .= '<a href="' . HOME_URL . '/showpost?' . Constants::ID . '=' . $strPostId .'">view this post</a>';
 			
 			//date
 			$strDate = Utils::GetValueByIndex(Constants::PUBLISH_DATE, $arrPostData);
